@@ -1,0 +1,44 @@
+
+.add-remove {
+  top: 29px;
+  padding: 0 0 0 5px;
+}
+
+.add-remove span {
+  padding: 0 0 0 5px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #2c3e50;
+}
+
+.address-street {
+  float: left;
+}
+.error-msg{
+  color: red;
+}
+
+.streetaddress-block { width: 50%; margin: 0 auto; margin-bottom: 10px; display: inline-block;}
+.street-block { width: 30%; float: left; margin-right: 20px;}
+.street-address { width: 58%; float: left; }
+.add-remove { width: 5%; float: left;}
+.street-block input, .street-address input { width: 100%;}
+
+.pac-item {
+  cursor: pointer;
+  padding: 0 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 30px;
+  text-align: left;
+  border-top: 1px solid #e6e6e6;
+  font-size: 11px;
+  color: #999;
+}
+.add-minus{
+  padding: 10px;
+}
+.autocomplete-dropdown-container{
+  width: 50%;
+}
